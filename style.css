@@ -1,0 +1,70 @@
+.container {
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+    background: rgb(69, 241, 244);
+    
+    margin-left: 230px;
+    margin-top: 60px;
+    position: absolute;
+    box-shadow: 8px 12px 15px 20px rgb(240, 64, 114)
+}
+h1{
+ color: blue;
+ text-underline-position: below;
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Rampart One', cursive;
+text-align: center;
+text-decoration: underline;
+margin-left: 7%;
+}
+
+#pageTitle {
+    padding: 10px;
+    background: #f96502;
+    color: aliceblue;
+    width: 20%;
+    margin: auto;
+    margin-left: 410px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+button {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+#load_prev {
+    background-color: #ff0f0f;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#load_next {
+    background-color: #ff0f0f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+ol {
+    width: 30%;
+    margin: auto;
+}
+
+ol > li {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f5f52f;
+    color: #4f07f8;
+    font-weight: bold;
+}
